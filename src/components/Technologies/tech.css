@@ -1,0 +1,41 @@
+.tech-icons {
+    /* font-size: 4.5em !important; */
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid #e64e04 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  
+  /* @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  } */
+  /* @media (max-width: "58.125rem") {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  } */
+  
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    /* border: 2.2px solid var(--green-3) !important; */
+    border: 2.2px solid #e64e04 !important;
+  }
+  .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
+  
+  .quote-card-view {
+    border: none !important;
+    color: white !important;
+    background-color: transparent !important;
+  }
