@@ -35,7 +35,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   position: relative;
 `;
 
@@ -43,7 +43,7 @@ export const ProjectTransitionImage = styled.img`
   width: 100%;
   height: 100%;
   opacity: 0;
-  object-fit: cover;
+  object-fit: fill;
   position: absolute;
   transition: 0.3s ease;
 `;
@@ -69,7 +69,19 @@ export const ProjectDetails = styled.div`
   z-index: 5;
 `;
 
-export const ProjectTitle = styled.span``;
+export const ProjectTitle = styled.span`
+color:#e64e04;
+font-weight:800;
+font-size:20px;
+`;
+
+export const ProjectDesc = styled.div`
+margin-top:0.5rem;
+`;
+export const ProjectTechStack = styled.div`
+margin-top:1em;
+`;
+
 
 export const LinkName = styled.span``;
 

@@ -11,6 +11,8 @@ import {
   ProjectLiveLink,
   ProjectTitle,
   ProjectTransitionImage,
+  ProjectDesc,
+  ProjectTechStack,
 } from "../styles/Projects.styled";
 
 const ProjectCardComponent = ({
@@ -19,15 +21,19 @@ const ProjectCardComponent = ({
   title,
   codeLink,
   liveLink,
+  techStack,
+  description,
 }) => {
   return (
     <>
       <IconContext.Provider value={{ size: "1rem" }}>
         <ProjectCard>
-          <ProjectImage src={image} alt={title} />
+          <ProjectImage src={image} alt={title}/>
           <ProjectTransitionImage src={transitionImage} alt={title} />
           <ProjectDetails>
             <ProjectTitle>{title}</ProjectTitle>
+            <ProjectDesc>{description}</ProjectDesc>
+            <ProjectTechStack><span style={{color:"#e64e04",marginRight:"5px",fontWeight:"700"}}>TechStack :</span><span>{techStack}</span></ProjectTechStack>
             <ProjectCodeLink
               href={codeLink}
               target="_blank"

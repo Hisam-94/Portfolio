@@ -11,7 +11,7 @@ const Projects = () => {
       <SectionHeading>
         <SectionTitle>Projects</SectionTitle>
       </SectionHeading>
-      <StyledParagraph dark="true" textAlign="center">
+      {/* <StyledParagraph dark="true" textAlign="center">
         Selected projects I've worked on recently.{" "}
         <StyledLink
           href="https://github.com/monciego"
@@ -20,7 +20,7 @@ const Projects = () => {
         >
           Want to see more?
         </StyledLink>
-      </StyledParagraph>
+      </StyledParagraph> */}
       <ProjectsContainer>
         {projectData.map((project) => {
           return <ProjectCardComponent key={project.id} {...project} />;
