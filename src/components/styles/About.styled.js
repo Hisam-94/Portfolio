@@ -43,11 +43,26 @@ export const AboutImageContainer = styled.div`
     z-index: 2;
   }
 
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
-    width: 100%;
+  @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    // width: 100%;
     height: 20rem;
     margin-bottom: 1.75rem;
+    margin-left:auto;
+    margin-right:auto;
 
+    &::after {
+      content: "";
+      top: -0.5rem;
+      left: -0.5rem;
+    }
+  }
+
+  @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 1.75rem;
+    margin-left:auto;
+    margin-right:aut0;
     &::after {
       content: "";
       top: -0.5rem;
@@ -61,8 +76,8 @@ export const AboutImage = styled.img`
   height: 100%;
   object-fit: cover;
   position: relative;
-  border-radius: 20px;
-  // border-radius: 100%;
+  border-radius: 20px;  
+  // border-radius: 100%;  
 `;
 
 export const AboutDetailsContainer = styled.div`
