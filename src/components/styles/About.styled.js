@@ -18,8 +18,8 @@ export const AboutContent = styled.div`
 
 export const AboutImageContainer = styled.div`
   position: relative;
-  width: 45%;
-  height: 28rem;
+  // width: 45%;
+  // height: 30rem; 
   z-index: 3;
 
   &::after {
