@@ -29,7 +29,7 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            Hello! My name is Hisamuddin Shaikh and I enjoy creating things that live on the internet
+            Hello! My name is Hisamuddin Shaikh
           </StyledParagraph>
           <StyledParagraph>
             I'm a passionate Developer, with a strong administrative and communication skills, good attention to details and ability to write efficient code using MERN Stack.
@@ -48,7 +48,7 @@ const About = () => {
           <StyledParagraph>
             Fast forwarding to today, I built a number of web applications and 4 major projects. Learned a great deal about teamwork, leadership, and communication. After months of rigiros training, here I am looking for an opportunity as a Full Stack Web Developer.
           </StyledParagraph>
-          <Resume>
+          {/* <Resume>
             <ResumeLink
               href={resume}
               icon={downloadIcon}
@@ -56,7 +56,7 @@ const About = () => {
             >
               Download Resume
             </ResumeLink>
-          </Resume>
+          </Resume> */}
         </AboutDetailsContainer>
       </AboutContent>
     </StyledAbout>

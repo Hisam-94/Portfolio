@@ -12,13 +12,16 @@ import {
   Quote,
 } from "../styles/Home.styled";
 import "./style.css";
-import projectIcon from "../../assets/icons/project-icon.svg";
-import aboutIcon from "../../assets/icons/about-me.svg";
+import downloadIcon from "../../assets/icons/download-icon.svg";
+import resume from "../../assets/Resume.pdf";
+// import projectIcon from "../../assets/icons/project-icon.svg";
+// import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
+import { Resume, ResumeLink } from "../styles/About.styled";
 
 const Home = () => {
   let today = new Date(),
@@ -55,8 +58,8 @@ const Home = () => {
           <span className="responsive">v</span>
           <span className="responsive">e</span> websites.
         </p>
-        <StyledButtonsContainer>
-          <StyledButton
+        {/* <StyledButtonsContainer> */}
+          {/* <StyledButton
             icon={projectIcon}
             to="projects"
             smooth={true}
@@ -83,9 +86,14 @@ const Home = () => {
             offset={-50}
           >
             <span>About me</span>
-          </StyledButton>
-        </StyledButtonsContainer>
-        <Line />
+          </StyledButton> */}
+          <Resume>
+            <ResumeLink href={resume}
+              icon={downloadIcon}
+              download="resume-hisamuddin-shaikh">Download Resume</ResumeLink>
+          </Resume>
+        {/* </StyledButtonsContainer> */}
+        {/* <Line /> */}
         <Greeting >
           have a great
           <span style={{color:"#e64e04"}}>

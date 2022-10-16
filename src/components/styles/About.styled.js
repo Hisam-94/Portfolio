@@ -105,15 +105,15 @@ export const Resume = styled.div`
     height: 1px;
     border-radius: 5px;
     background: ${({ theme }) => theme.backgroundColor.light};
-    width: 100%;
+    // width: 20%;
     transition: transform 0.3s ease;
     transform: scaleX(0);
-    transform-origin: bottom right;
+    // transform-origin: bottom left;
   }
 
   &:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+    transform: scaleX(0);
+    // transform-origin: bottom left;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
@@ -130,7 +130,8 @@ export const ResumeLink = styled.a`
   &::before {
     content: ${(props) => `url(${props.icon})`};
     position: absolute;
-    right: -2rem;
+    // right: -2rem;
+    left: 12rem;
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transform: translateX(-20px);

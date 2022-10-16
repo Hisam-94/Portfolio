@@ -16,6 +16,10 @@ import project2_1 from "../../assets/projects/ESPNcricinfo_1.jpg";
 import project2_2 from "../../assets/projects/ESPNcricinfo_2.png";
 import project3_1 from "../../assets/projects/Monster_1.jpg";
 import project3_2 from "../../assets/projects/Monster_2.png";
+import project4_1 from "../../assets/projects/myhours_1.jpg";
+import project4_2 from "../../assets/projects/myhours_2.png";
+import project5_1 from "../../assets/projects/Uboric_1.png";
+import project5_2 from "../../assets/projects/Uboric_2.jpg";
 
 
 export {
@@ -25,5 +29,9 @@ export {
   project2_2,
   project3_1,
   project3_2,
+  project4_1,
+  project4_2,
+  project5_1,
+  project5_2
  
 };
