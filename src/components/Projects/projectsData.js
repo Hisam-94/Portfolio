@@ -22,7 +22,7 @@ export const projectData = [
     description:"Myhours.com is a simple cloud-based free time tracking and project management software. Time-tracked on projects and tasks can be easily turned into shareable reports for your clients or managers.",
     techStack:": React | Redux | CSS | Chakra-UI | Node | Express | Mongoose | MongoDB | GitHub",
     codeLink: "https://github.com/Hisam-94/MyHours-clone",
-    liveLink: "https://myhours01.netlify.app/",
+    liveLink: "https://my-hours-phi.vercel.app/",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ export const projectData = [
     description:"Uboric is the Ultimate Domestic Online Shopping Experience Platform in India. Online shopping with Uboric is quick, convenient and trouble-free.",
     techStack:": React | Redux | CSS | Chakra-UI | Node | Express | Mongoose | MongoDB | GitHub",
     codeLink: "https://github.com/amit05c/Uboric_Clone",
-    liveLink: "https://exclusive-oatmeal-9601.vercel.app/",
+    liveLink: "https://uboric-deploy.vercel.app/",
   },
   {
     id: 3,
