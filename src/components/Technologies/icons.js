@@ -97,14 +97,15 @@
 
 import html from "../../assets/icons/html-5.png"
 import js from "../../assets/icons/js.png"
+import typeScript from "../../assets/icons/typeScript.webp"
 import materialUI from "../../assets/icons/material-ui.png"
 import chakraUI from "../../assets/icons/chakra-ui.png"
-import Git from "../../assets/icons/Git.png"
+import github from "../../assets/icons/github.webp"
 import MongoDB from "../../assets/icons/MongoDB.png"
+import Firebase from "../../assets/icons/firebase.webp"
 import bootstrap from "../../assets/icons/bootstrap.png"
 import css from "../../assets/icons/css-3.png"
 import ExpressJS from "../../assets/icons/ExpressJS.png"
-import Mongoose from "../../assets/icons/Mongoose.png"
 import NodeJS from "../../assets/icons/NodeJS.png"
 import NPM from "../../assets/icons/NPM.png"
 import Postman from "../../assets/icons/Postman.png"
@@ -122,24 +123,12 @@ export const iconsData = [
     name:"CSS"
   },
   {
-    icon:bootstrap,
-    name:"Bootstrap"
-  },
-  {
-    icon:materialUI,
-    name:"Material UI"
-  },
-  {
-    icon:chakraUI,
-    name:"Chakra UI"
-  },
-  {
-    icon:Tailwind,
-    name:"Tailwind"
-  },
-  {
     icon:js,
     name:"JavaScript"
+  },
+  {
+    icon:typeScript,
+    name:"TypeScript"
   },
   {
     icon:react,
@@ -162,12 +151,32 @@ export const iconsData = [
     name:"MongoDB"
   },
   {
-    icon:Mongoose,
-    name:"Mongoose"
+    icon:react,
+    name:"React Native"
   },
   {
-    icon:Git,
-    name:"Git"
+    icon:Firebase,
+    name:"Firebase"
+  },  
+  {
+    icon:bootstrap,
+    name:"Bootstrap"
+  },
+  {
+    icon:materialUI,
+    name:"Material UI"
+  },
+  {
+    icon:chakraUI,
+    name:"Chakra UI"
+  },
+  {
+    icon:Tailwind,
+    name:"Tailwind"
+  },
+  {
+    icon: github,
+    name: "GitHub",
   },
   {
     icon:Postman,

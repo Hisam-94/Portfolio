@@ -11,7 +11,7 @@ import {
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 // import myImage from "../../assets/my-image.jpg";
-import myImage from "../../assets/Hisam.png";
+import myImage from "../../assets/Hisam.jpeg";
 // import downloadIcon from "../../assets/icons/download-icon.svg";
 // import resume from "../../assets/Resume.pdf";
 
@@ -33,10 +33,10 @@ const About = () => {
             Hello! My name is Hisamuddin Shaikh
           </StyledParagraph>
           <StyledParagraph>
-            I'm a passionate Developer, with a strong administrative and communication skills, good attention to details and ability to write efficient code using MERN Stack.
+          I'm a passionate Developer with strong administrative and communication skills, a keen eye for detail, and the ability to write efficient code using the MERN Stack.
           </StyledParagraph>
           <StyledParagraph>
-            My Interest in web development started back when I was in my final year of Engineering, I was trying to build some web pages using wordpress.
+          My interest in web development began during my final year of Engineering, when I started building web pages using WordPress.
           </StyledParagraph>
           {/* <StyledParagraph>
             I have eagerness to learn something new every day and I love to
@@ -44,10 +44,10 @@ const About = () => {
             looking forward to talk with you!
           </StyledParagraph> */}
           <StyledParagraph>
-            As I grow and flourish as a Developer, one thing whick keeps me going is my inquisitiveness for discovering new things every day.
+          As I’ve grown as a Developer, my curiosity and drive to learn something new every day have kept me motivated.
           </StyledParagraph>
           <StyledParagraph>
-            Fast forwarding to today, I built a number of web applications and 4 major projects. Learned a great deal about teamwork, leadership, and communication. After months of rigiros training, here I am looking for an opportunity as a Full Stack Web Developer.
+          Over the past year, I have gained valuable experience as a MERN Full Stack Developer at Myulogic Solutions Pvt Ltd, where I’ve built several web applications and honed my teamwork, leadership, and communication skills. I am now excited to take on new challenges and continue my journey as a Full Stack Developer.
           </StyledParagraph>
           {/* <Resume>
             <ResumeLink
