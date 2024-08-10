@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.48878f24.css",
-    "main.js": "/Portfolio/static/js/main.051e54f9.js",
+    "main.js": "/Portfolio/static/js/main.f329a4c9.js",
     "static/js/787.9b9c0edf.chunk.js": "/Portfolio/static/js/787.9b9c0edf.chunk.js",
     "static/media/quote-background.jpg": "/Portfolio/static/media/quote-background.026b66371900f2cda770.jpg",
     "static/media/Uboric_1.png": "/Portfolio/static/media/Uboric_1.f2a04ede5010a349406a.png",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.d7843b91d990d7689dbc.pdf",
-    "static/media/Hisam.png": "/Portfolio/static/media/Hisam.c3635356f3bab79235d9.png",
     "static/media/Redux.png": "/Portfolio/static/media/Redux.1b4bb5fceb01b19da59d.png",
     "static/media/chakra-ui.png": "/Portfolio/static/media/chakra-ui.e4cb472ccaabf22affba.png",
     "static/media/Lately_1.png": "/Portfolio/static/media/Lately_1.1ddd65d781e3e7ef75fc.png",
@@ -18,21 +17,25 @@
     "static/media/ESPNcricinfo_2.png": "/Portfolio/static/media/ESPNcricinfo_2.89295d44adcb7b18fbb5.png",
     "static/media/Postman.png": "/Portfolio/static/media/Postman.94fc1b616e260ffd2341.png",
     "static/media/React.png": "/Portfolio/static/media/React.ac9979693620f0a96231.png",
+    "static/media/Hisam.jpeg": "/Portfolio/static/media/Hisam.76b7c70037497f5c769f.jpeg",
     "static/media/Uboric_2.jpg": "/Portfolio/static/media/Uboric_2.d93c54fab46bac82f9e6.jpg",
     "static/media/Tailwind CSS.jpg": "/Portfolio/static/media/Tailwind CSS.b622e290e82093c36cca.jpg",
     "static/media/css-3.png": "/Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/html-5.png": "/Portfolio/static/media/html-5.ff3cf75e3b7cbb4ea77c.png",
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/github.webp": "/Portfolio/static/media/github.d9ac0be1d06e03d9b8f1.webp",
+    "static/media/firebase.webp": "/Portfolio/static/media/firebase.176ab82b98264468fef1.webp",
+    "static/media/typeScript.webp": "/Portfolio/static/media/typeScript.56ad30c41d4606e2b62f.webp",
     "index.html": "/Portfolio/index.html",
     "static/media/icon-arrow-up.svg": "/Portfolio/static/media/icon-arrow-up.7f95bf92a27da651ffc7e948a1c19ee0.svg",
     "static/media/download-icon.svg": "/Portfolio/static/media/download-icon.d10f1326cd5c29db6c3cdbc456ed8713.svg",
     "main.48878f24.css.map": "/Portfolio/static/css/main.48878f24.css.map",
-    "main.051e54f9.js.map": "/Portfolio/static/js/main.051e54f9.js.map",
+    "main.f329a4c9.js.map": "/Portfolio/static/js/main.f329a4c9.js.map",
     "787.9b9c0edf.chunk.js.map": "/Portfolio/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48878f24.css",
-    "static/js/main.051e54f9.js"
+    "static/js/main.f329a4c9.js"
   ]
 }
