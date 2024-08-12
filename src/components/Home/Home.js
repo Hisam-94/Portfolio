@@ -30,22 +30,22 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-      <Title>Hello 👋.</Title>
-        <Name>I'm <span style={{color:"#e64e04"}}>Hisamuddin Shaikh</span></Name>
+        <Title>Hello 👋.</Title>
+        <Name>
+          I'm <span style={{ color: "#e64e04" }}>Hisamuddin Shaikh</span>
+        </Name>
         {/* <Title>Full Stack Developer</Title> */}
         <Title>
-        <Typewriter
-      options={{
-        strings: [
-          "Full Stack Developer."
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 100,
-      }}
-    />
-    </Title>
-        <p style={{color:"#e64e04"}}>
+          <Typewriter
+            options={{
+              strings: ["Full Stack Developer."],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 100,
+            }}
+          />
+        </Title>
+        <p style={{ color: "#e64e04" }}>
           I <span className="change-text"></span>{" "}
           <span className="responsive">r</span>
           <span className="responsive">e</span>
@@ -59,7 +59,7 @@ const Home = () => {
           <span className="responsive">e</span> websites.
         </p>
         {/* <StyledButtonsContainer> */}
-          {/* <StyledButton
+        {/* <StyledButton
             icon={projectIcon}
             to="projects"
             smooth={true}
@@ -87,16 +87,27 @@ const Home = () => {
           >
             <span>About me</span>
           </StyledButton> */}
-          <Resume>
+        {/* <Resume>
             <ResumeLink href={resume}
               icon={downloadIcon}
               download="resume-hisamuddin-shaikh">Download Resume</ResumeLink>
-          </Resume>
+          </Resume> */}
+
+        <Resume>
+          <ResumeLink
+            href={
+              "https://drive.google.com/file/d/1IdTax8BQOzpIvRMgtRgBx4B1mS8RC-n4/view"
+            }
+            target="_blank"
+            icon={downloadIcon}>
+            Download Resume
+          </ResumeLink>
+        </Resume>
         {/* </StyledButtonsContainer> */}
         {/* <Line /> */}
-        <Greeting >
+        <Greeting>
           have a great
-          <span style={{color:"#e64e04"}}>
+          <span style={{ color: "#e64e04" }}>
             {hour < 12 ? " morning" : hour < 18 ? " afternoon" : " evening"}
           </span>
           .
@@ -105,22 +116,19 @@ const Home = () => {
           <Social
             href="mailto:hisamuddin94@gmail.com"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <FaEnvelope />
           </Social>
           <Social
             href="https://github.com/Hisam-94"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <GoMarkGithub />
           </Social>
           <Social
             href="https://www.linkedin.com/in/hisamuddin-shaikh"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <GrLinkedinOption />
           </Social>
         </Socials>
