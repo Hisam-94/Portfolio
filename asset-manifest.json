@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.48878f24.css",
-    "main.js": "/Portfolio/static/js/main.f329a4c9.js",
+    "main.js": "/Portfolio/static/js/main.ef039fb6.js",
     "static/js/787.9b9c0edf.chunk.js": "/Portfolio/static/js/787.9b9c0edf.chunk.js",
     "static/media/quote-background.jpg": "/Portfolio/static/media/quote-background.026b66371900f2cda770.jpg",
     "static/media/Uboric_1.png": "/Portfolio/static/media/Uboric_1.f2a04ede5010a349406a.png",
@@ -31,11 +31,11 @@
     "static/media/icon-arrow-up.svg": "/Portfolio/static/media/icon-arrow-up.7f95bf92a27da651ffc7e948a1c19ee0.svg",
     "static/media/download-icon.svg": "/Portfolio/static/media/download-icon.d10f1326cd5c29db6c3cdbc456ed8713.svg",
     "main.48878f24.css.map": "/Portfolio/static/css/main.48878f24.css.map",
-    "main.f329a4c9.js.map": "/Portfolio/static/js/main.f329a4c9.js.map",
+    "main.ef039fb6.js.map": "/Portfolio/static/js/main.ef039fb6.js.map",
     "787.9b9c0edf.chunk.js.map": "/Portfolio/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48878f24.css",
-    "static/js/main.f329a4c9.js"
+    "static/js/main.ef039fb6.js"
   ]
 }
